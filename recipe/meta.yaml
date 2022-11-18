@@ -1,5 +1,5 @@
 {% set name = "jekyll-remote-theme" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.3" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 6b6e673d6c4a8960032e2886755532e4419c404fe8042988072aa7ce4b4bc605
+  sha256: d3fde726484fb3df04de9e347baf75aaa3d5bfea771a330412e0c52608e54b40
 
 build:
   noarch: generic
